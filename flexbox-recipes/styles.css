@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #2B3228;
+}
+
+a {
+	font-family: Helvetica, sans-serif;
+	font-size: 1.25em;
+	color: #A6A6A6;
+}
+
+h1 {
+	font-family: lust-script-display, script;
+	font-size: 5em;
+	line-height: 1;
+}
+
+h2 {
+	font-family: lust-script, script;
+	font-size: 3em;
+	color: white;
+}
+
+h3 {
+	font-family: lust-script-fine;
+	color: white;
+	font-size: 1.5em;
+}
+
+h4 {
+	font-family: Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 1.75em;
+}
+
+p, figcaption {
+	font-family: Helvetica, sans-serif;
+	color: white;
+	size: 1.25em;
+}
+
+figcaption {
+	text-transform: uppercase;
+	letter-spacing: .125em;
+}
+
+/*nav styles*/
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	min-height: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	background-color: #1E1E1E;
+	padding: 15px;
+	z-index: 1;
+}
+
+nav img {
+	height: 80px;
+	width: auto;
+	margin: 15px;
+}
+
+nav #nav-links {
+	display: flex;
+	height: 50px;
+	width: 500px;
+	margin: 15px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*header styles*/
+header {
+	position: relative;
+	top: 150px;
+}
+
+#header {
+	width: 100%;
+	min-height: 700px;
+	background-image: url("images/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 2;
+	color: white;
+}
+
+#header-text {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: black;
+	padding: 30px;
+	opacity: .75;
+}
+
+/*main styles*/
+main {
+	margin: 50px auto;
+	position: relative;
+	top: 150px;
+	text-align: center;
+}
+
+#recipes {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column wrap;
+	min-height: 400px;
+	align-items: space-between;
+	justify-content: space-around;
+}
+
+
+#recipe-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.recipe-photos {
+	flex: 2 2 10px;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+#people {
+	display: flex;
+	flex-flow: column wrap;
+	margin: 50px auto 0;
+	justify-content: space-between;
+	background-image: url("images/people_background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px;
+}
+
+#people-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.people-photos-side {
+	flex: 1 2 120px;
+	flex-basis: auto;
+	padding: 40px;
+}
+
+.people-photos-middle {
+	flex: 2 1 120px;
+	flex-basis: auto;
+	padding: 40px;
+}
+
+/*footer styles*/
+
+footer {
+	position: relative;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	height: 300px;
+	flex-flow: column wrap;
+	align-items: center;
+}
